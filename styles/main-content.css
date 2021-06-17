@@ -1,0 +1,53 @@
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+#main_container {
+    display: flex;
+    }
+
+#top_part {
+    height: 20%;
+    display: flex;
+
+}
+
+#login {
+    display: absolute;
+    margin-right: 15%;
+    margin-left: auto;
+    padding: 15px;
+   text-decoraation: none;    
+   
+}
+
+#main_content {
+	background: #E3E3E3;
+	display: table;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+	height: 100vh;
+    width: 80%;
+    margin: 5% 10%;
+    border: 2px solid black;
+    padding: 30px;
+    height: auto;
+    }
+
+#footer {
+    bottom: 0;
+    height: 10%;
+    width: 100%;
+    background: lightblue;
+    text-align: center;
+}
+
+#news {
+    align-content: center;
+}
